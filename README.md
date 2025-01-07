@@ -1,2 +1,2 @@
 # CheddarChurch
-Humorous Website Spoofing Prosperity Gospel
+Humorous Website Spoofing The Prosperity Gospel
