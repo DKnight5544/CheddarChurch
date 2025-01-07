@@ -33,9 +33,14 @@
         .banner {
             width: 100%;
             max-width: 800px;
-            margin: 0 auto;
-            display: block;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            background-color: #fffbe6; /* Optional: to match the background */
         }
+
 
         .para-header {
             margin-top: 30px;
@@ -47,9 +52,10 @@
             width: 100%;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 480px 20px 20px;
             box-sizing: border-box;
         }
+
 
         p {
             font-size: 24px;
@@ -73,11 +79,20 @@
 
         /* Media query for smaller screens */
         @media(max-width: 600px) {
+
+            h1, h2 {
+                font-size:21px;
+            }
+            .main {
+                padding-top: 240px;
+                box-sizing: border-box;
+            }
             p {
-                font-size: 21px;
+                font-size: 18px;
             }
         }
     </style>
+
 </head>
 
 <body>
@@ -89,44 +104,106 @@
     <section class="main">
 
         <h1>Welcome to CheddarChurch.com</h1>
-        <p><em>"Come for church, bring some cheddar..."</em></p>
+        <p><em>"Come for church, and bring some cheddar..."</em></p>
         <p>
             CheddarChurch.com is here to bring a little humor, hustle, and maybe
-            even a little grift into your faith journey. Whether you're chasing 
+            even a little grift into your faith journey. Whether you're chasing
             the cheddar or cutting the cheese with friends, there's a place for you here.
         </p>
 
         <h2>Our Mission Statement</h2>
-        <p><em>"Make America Grate Again!"</em></p>
+        <p>
+            <em>
+                "To unite and equip the hustlers and grifters of the world,
+                teaching them to follow in the footsteps of Cheesus!"
+            </em>
+        </p>
 
-        <h2>Our Sacred Practices</h2>
+        <h2>Our Sacred Cere-monies</h2>
         <p><em>A three-cheese blend...</em></p>
+        <p><em>I'll take words ending in monies for $500...</em></p>
         <ul>
-            <li><strong>Breaking of the Cheese</strong> – In fellowship, we break cheese together (often with cheeze-its and wine), celebrating both earthly bounty and heavenly joy.</li>
-            <li><strong>Chasing the Cheese</strong> – We engage in holy hustle, believing that faithful effort leads to divine returns.</li>
-            <li><strong>Cutting of the Cheese</strong> – We joyfully give a portion of our cheddar to support the mission of CheddarChurch.com and those in need.</li>
+            <li>
+                <strong>Breaking of the Cheese</strong>
+                – In fellowship, we break chedder together, using the sacred elements of cheeze-its and wine, celebrating both earthly bounty and heavenly joy.
+            </li>
+            <li>
+                <strong>Chasing of the Cheese</strong>
+                – We engage in the holy hustle, the passing of the card-reader,
+                believing that faithful grifting leads to divine returns.
+            </li>
+            <li>
+                <strong>Cutting of the Cheese</strong>
+                – This is the house of Cheesus so relax and
+                "let thy most fragrant of offerings rise up like holy incense..."
+            </li>
         </ul>
 
-        
+
         <h2>The 10 Commandments</h2>
         <p><em>Suggestions really...</em></p>
         <ul>
-            <li>I am the Cheddar, thy Gouda. Thou shalt not have any gouda before me.</li>
+            <li>I am the Cheddar, thy Gouda. Thou shalt not taste any gouda before me.</li>
             <li>Thou shalt not take the name of the Cheddar in vain, unless it’s really funny.</li>
-            <li>Remember the Cheese Day, to keep it tasty.</li>
+            <li>Remember the Chabbath Day, to keep it holey (and tasty).</li>
             <li>Honor thy cheese and thy crackers, that thy days may be long and delicious.</li>
             <li>Thou shalt not let good cheese go moldy.</li>
             <li>Thou shalt not cut the cheese... without opening a window.</li>
-            <li>Thou shalt not steal another's cheddar, but thou mayest borrow with permission.</li>
-            <li>Thou shalt not bear false witness. Thy grift must be subtle with a grain of truth.</li>
+            <li>Thou shalt not steal another's cheddar, but thou mayest borrow with interest.</li>
+            <li>
+                Thy grifts must be subtle with a grain of truth lest thou be cast out
+                where the mold is and the bailiff dieth not.
+            </li>
             <li>Thou shalt not covet thy neighbor's Gouda, nor his Brie, nor his Havarti.</li>
             <li>Thou shalt side-hustle faithfully for thy cheddar, and share it generously with thine upline.</li>
         </ul>
 
-        <h2>Supplimental Suggestions</h2>
+        <h2>Advice for the Lactose-Intolerant</h2>
+        <p><em>aka, the unbelievers...</em></p>
         <ul>
             <li>
-                Thou shalt not poke more holes in our cheezology.
+                Try not to poke more holes in our cheezology.
+            </li>
+            <li>
+                Try not to spread thy dairy-free doctrines.
+            </li>
+            <li>
+                Always remember: The best cheese comes in cans.
+            </li>
+        </ul>
+
+        <h2>Church Hymnity</h2>
+        <p><em>Our beloved music...</em></p>
+        <ul>
+            <li>
+                Ooops, I tooted Again
+            </li>
+            <li>
+                How Grate Thou Art
+            </li>
+            <li>
+                Holey, Holey, Holey
+            </li>
+            <li>
+                Blessed Are The Cheese-Makers
+            </li>
+            <li>
+                Oh, How I Love Cheesus
+            </li>
+            <li>
+                If You're Gassy And You Know It
+            </li>
+            <li>
+                Cheesus Loves Me
+            </li>
+            <li>
+                There's Something Churning In My Soul
+            </li>
+            <li>
+                There is a Season, Churn...Churn...Churn
+            </li>
+            <li>
+                I Surrender All (My Cheddar)
             </li>
         </ul>
 
