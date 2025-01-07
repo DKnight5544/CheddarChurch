@@ -33,9 +33,14 @@
         .banner {
             width: 100%;
             max-width: 800px;
-            margin: 0 auto;
-            display: block;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            background-color: #fffbe6; /* Optional: to match the background */
         }
+
 
         .para-header {
             margin-top: 30px;
@@ -47,9 +52,10 @@
             width: 100%;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 480px 20px 20px;
             box-sizing: border-box;
         }
+
 
         p {
             font-size: 24px;
@@ -129,7 +135,7 @@
         <h2>The 10 Commandments</h2>
         <p><em>Suggestions really...</em></p>
         <ul>
-            <li>I am the Cheddar, thy Gouda. Thou shalt not have any gouda before me.</li>
+            <li>I am the Cheddar, thy Gouda. Thou shalt not taste any gouda before me.</li>
             <li>Thou shalt not take the name of the Cheddar in vain, unless it’s really funny.</li>
             <li>Remember the Chabbath Day, to keep it holey (and tasty).</li>
             <li>Honor thy cheese and thy crackers, that thy days may be long and delicious.</li>
